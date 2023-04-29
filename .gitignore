@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+__pycache__/
+.Python
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+
+# Other
+*.log
+*.bak
+*.swp
