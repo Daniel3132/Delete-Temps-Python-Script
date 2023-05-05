@@ -6,7 +6,6 @@ windows_temp_folder = os.environ['windir'] + '\\Temp'
 appdata_folder = os.environ['USERPROFILE'] + '\\AppData\\Local\\Temp'
 java_temp_folder = os.environ['USERPROFILE'] + \
     '\\AppData\\LocalLow\\Sun\\Java\\Deployment\\cache\\6.0'
-ae_cache_folder = 'D:\\cache\\Adobe\\After Effects\\23.3\\Disk Cache - DESKTOP-5S19FQ4.noindex'
 opera_gx_cache_folder = os.environ['USERPROFILE'] + \
     '\\AppData\\Roaming\\Opera Software\\Opera GX Stable\\Cache'
 brave_cache_folder = os.environ['USERPROFILE'] + \
@@ -24,7 +23,6 @@ folders_to_clean = [
     windows_temp_folder,
     appdata_folder,
     java_temp_folder,
-    ae_cache_folder,
     opera_gx_cache_folder,
     brave_cache_folder,
     edge_cache_folder,
