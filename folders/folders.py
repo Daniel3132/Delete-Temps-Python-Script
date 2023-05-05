@@ -15,7 +15,8 @@ edge_cache_folder = os.environ['USERPROFILE'] + \
     '\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Cache'
 firefox_cache_folder = os.environ['USERPROFILE'] + \
     '\\AppData\\Local\\Mozilla\\Firefox\\Profiles\\<profile>\\cache2\\entries'
-log_file = os.environ['USERPROFILE'] + '\\temp_cleanup.log'
+chrome_cache_folder = os.environ['USERPROFILE'] + \
+    '\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache'
 
 # Array of folders to clean
 folders_to_clean = [
@@ -28,4 +29,5 @@ folders_to_clean = [
     brave_cache_folder,
     edge_cache_folder,
     firefox_cache_folder,
+    chrome_cache_folder,
 ]

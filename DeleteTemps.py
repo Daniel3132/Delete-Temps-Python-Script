@@ -33,7 +33,7 @@ if confirm.lower() == 'y':
             count, size = delete_files(folder)
             total_count += count
             total_size += size
-        total_size /= 1048576  # convert from b to mb
+        total_size /= 1000000000  # convert from b to mb
         formatted_number = "{:.1f}".format(total_size)  # left just one decimal
         print('Temporary files deleted successfully.')
         print('Deleted', total_count, 'files, freeing up',
